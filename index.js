@@ -6,7 +6,7 @@ var port=3900;
 
 // mongoose.set('useFindAndModify', false); //ya no se usa...
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/productos', { useNewUrlParser: true })
+mongoose.connect('mongodb://localhost:27017/pacientes', { useNewUrlParser: true })
     .then(() => {
         console.log('La conexion se realizo correctamente con MongoDB');
         app.listen(port, () => {

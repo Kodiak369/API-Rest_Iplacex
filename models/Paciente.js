@@ -6,10 +6,10 @@ var Schema = mongoose.Schema;
 var PacienteSchema = Schema({
     rut: String,
     nombre: String,
-    edad: Number,
+    edad: String,
     sexo: String,
     enfermedad: String,
-    revisado: Boolean,
+    revisado: String,
     fechaIngreso: { type: Date, default: Date.now },
     fotoPersonal: String
 });

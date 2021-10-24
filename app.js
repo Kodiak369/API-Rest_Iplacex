@@ -2,9 +2,6 @@
 
 var express = require('express');
 var routers = require('./routes/routes');
-// var controller = require('./controller/test');
-
-// var bodyParser = require('body-parser');
 
 var app = express();
 
